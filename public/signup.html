@@ -55,23 +55,23 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_1">HOME</a>
+                                <a class="nav-link click-scroll" href="#section_1">HOME</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_2">USE CASES</a>
+                                <a class="nav-link click-scroll" href="#section_2">USE CASES</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_3">ABOUT Certifia</a>
+                                <a class="nav-link click-scroll" href="#section_3">ABOUT Certifia</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="index.html#section_5">CONTACT</a>
+                                <a class="nav-link click-scroll" href="#section_5">CONTACT</a>
                             </li>
         
                             <li class="nav-item dropdown">
@@ -99,7 +99,7 @@
                         <div class="col-lg-5 col-12">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Signup</a></li>
+                                    <li class="breadcrumb-item"><a href="/">Signup</a></li>
 
                                     <li class="breadcrumb-item active" aria-current="page">Sign up</li>
                                 </ol>
@@ -188,19 +188,19 @@
 
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
-                                <a href="index.html#" class="site-footer-link">Home</a>
+                                <a href="#" class="site-footer-link">Home</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="index.html#section_2" class="site-footer-link">Use cases</a>
+                                <a href="#section_2" class="site-footer-link">Use cases</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="index.html#section_4" class="site-footer-link">FAQs</a>
+                                <a href="#section_4" class="site-footer-link">FAQs</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="index.html#section_5" class="site-footer-link">Contact</a>
+                                <a href="#section_5" class="site-footer-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -248,7 +248,7 @@
             try {
                 await firebase.auth().createUserWithEmailAndPassword(email, password);
                 console.log('User signed up');
-                window.location.href = '/index.html';
+                window.location.href = '/';
             } catch (error) {
                 // Handle Errors here.
                 let errorCode = error.code;
